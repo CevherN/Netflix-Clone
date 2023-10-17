@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <title>Netflix Survey Form</title>
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+        <h1 id="title">NET<span>FLIX</span></h1>
+        <h3 id="description">Thank you for signing up to Netflix.Tell me more about yourself.</h3>
+
+        </header>
+
+        <section id="survey-form-container"></section>
+        <form action="result.html" method="get">
+        <div class="input-box">
+            <label for="Name">Name</label>
+            <br>
+            <input type="text" name="Name" id="Name" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+            <label for="Age">Age</label>
+            <br>
+            <input type="number" id="Age" name="Age" placeholder="Age">
+        </div>
+        
+        <div class="input-box">
+            <label for="Email">Email</label>
+            <br>
+            <input type="email" id="Email" name="Email" placeholder="Enter your email">
+        </div>
+        <div class="input-box">
+            <label for="Content-type">Content Type</label>
+            <br>
+            <select name="Content" id="dropdown">
+            <option value="movie">Movies</option>
+            <option value="series">Series</option>
+            <option value="tv_show">TV Shows</option>
+        </select>
+        </div>
+        </form>
+    </div>
+
+</body>
+</html>
